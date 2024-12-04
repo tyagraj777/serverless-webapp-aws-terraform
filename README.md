@@ -4,10 +4,15 @@ Use Terraform or AWS CloudFormation to automate the deployment of Lambda functio
 # Dir structure (+ user creation script)
 
 project/
+
 ├── main.tf
+
 ├── variables.tf
+
 ├── lambda_function.py
+
 ├── lambda.zip
+
 └── terraform.tfvars
 
 
